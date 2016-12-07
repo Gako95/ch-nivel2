@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ejercicio_3</title>
+</head>
+<body>
+
+	<script>
+		/*var name = prompt ("name");
+		var last_name = prompt ("last name");
+		 
+		function names(name,last_name){
+			alert(name +" "+ last_name);
+		}
+		names (name,last_name);*/
+		
+		var week=["monday","tuesday","wednesday","thurday","friday","saturday","sunday"];
+		
+		var day = prompt ("ingrese el n° del dia");
+		var n =day-1;
+		(function week_check (){
+			if (week[n]==week[5]||week[n]==week[6]){
+				alert ( week[n]+": dia no habil");
+			}else{
+				alert(week[n]+": dia normal");
+
+			}
+		})();
+		
+	</script>
+
+</body>
+</html>
